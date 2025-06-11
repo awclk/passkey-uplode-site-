@@ -10,7 +10,7 @@
    const filePath = 'trading/passkey.json'; // path එක දෙන්න
    const repo = '{databse}'; // repository name එක දෙන්න
    const username = '{awclk}'; // username එක දෙන්න
-   const token = '{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}'; // ඔයාගේ token එක දෙන්න
+   const token = '{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}'; // ඔයාගේ token එක දෙන්න
 
    // Fetch the current content
    const getUrl = apiUrl.replace('{username}', username).replace('{repo}', repo).replace('{path}', filePath);
