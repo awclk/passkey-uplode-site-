@@ -18,7 +18,7 @@
    try {
     const getResponse = await fetch(getUrl, {
      headers: {
-      'Authorization': `token ${token}`,
+      'Authorization': `token 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`,
       'Accept': 'application/vnd.github.v3+json'
      }
     });
@@ -44,7 +44,7 @@
     const updateResponse = await fetch(updateUrl, {
      method: 'PUT',
      headers: {
-      'Authorization': `token ${token}`,
+      'Authorization': `token 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`,
       'Accept': 'application/vnd.github.v3+json',
       'Content-Type': 'application/json'
      },
